@@ -5,7 +5,7 @@ metadata:
   namespace: prod-mesh
 spec:
   importRules:
-    - importAsLocal: false
+    - importAsLocal: true
       nameSelector:
         alias:
           name: details-v2
